@@ -1,0 +1,61 @@
+.submit-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: column
+}
+
+.todo-label{
+    color:#000000;
+    font-size:20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.todo-input{
+    border-style: none;
+    background-color: rgba(218, 164, 235, 0.685);
+    color: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border-style: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 20px;
+    height: 8%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:476px){
+    .todo-label{
+        font-size: 15px;
+    }
+    .todo-input{
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .btn{
+        border-radius: 5px;
+        padding: 4px;
+        margin-left: 10px;
+        height: 5%;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+}

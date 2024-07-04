@@ -1,0 +1,48 @@
+.bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, black 50%, white 50%);
+    height: 100vh;
+}
+
+.todo-card-container{
+    background: linear-gradient(to left, black 50%, white 50%);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 60%;
+}
+
+
+.todo-heading{
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Bree Serif';
+    margin-right:10px;
+}
+
+.span{
+    color: #ffffff
+}
+
+.list-container{
+    list-style-type: none;
+    padding: 0px;
+}
+
+@media screen and (max-width:476px){
+    .todo-heading{
+        font-size: 20px;
+    }
+
+    .todo-card-container{
+        height: 80%;
+        width: 70%;
+        padding: 5px;
+    }
+}
